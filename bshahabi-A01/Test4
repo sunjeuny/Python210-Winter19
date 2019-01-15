@@ -1,0 +1,14 @@
+#--------------------------#
+#Title: Compare two integers"
+# Change log (Who,When,What)
+#bshaabi,1/13/2019,Created File"
+
+def Posneg(a,b):
+    if a>=0 and b<=0:
+        print("A is positive and B is negative")
+    else:
+        print("Hello")
+a = int(input('Enter the first value:'))
+b = int(input('Enter the second value:'))
+#call the function
+Posneg(a,b)

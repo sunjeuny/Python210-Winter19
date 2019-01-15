@@ -1,0 +1,15 @@
+#--------------------------#
+#Title: Adding "not" to the string's front and return the same string which starts with "not""
+# Change log (Who,When,What)
+#bshaabi,1/13/2019,Created File"
+def not_string(str):
+    if len(str)>=3 and str[:3] == "not":
+        print (str)
+    else:
+        print ("not" + str)
+str = input('Enter the string:')
+not_string(str)
+
+
+
+

@@ -1,0 +1,14 @@
+#--------------------------#
+#Title: This code repeats a string n times
+# Change log (Who,When,What)
+#bshaabi,1/14/2019,Created File"
+def string_times(str, n):
+  result= ""
+  for i in range(n):
+    result = result + str
+  print(str*n)
+n = int(input('Enter the n value:'))
+str = input ('Enter the string:')
+#call the function
+string_times(str,n)
+
